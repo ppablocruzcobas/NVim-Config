@@ -1,0 +1,59 @@
+{
+  // suggestions
+  // "suggest.echodocSupport": true,
+  // TODO add more labels and give them cool glyphs
+  "suggest.completionItemKindLabels": {
+    "text": "t",
+    "method": "m",
+    "function": ""
+  },
+  // diagnostics
+  "diagnostic.errorSign": " ",
+  "diagnostic.warningSign": " ",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": " ",
+  // "diagnostic.virtualText": true, // this won't work with codelens when error on same line
+  // "diagnostic.displayByAle": true,
+  // codelens TODO what does this get me?
+  // "codeLens.enable": true,
+  // list
+  "list.indicator": ">",
+  "list.selectedSignText": " ",
+  // autoformat
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "html",
+    "json",
+    "python",
+    "java"
+  ],
+  "coc.preferences.hoverTarget": "float",
+  // python config
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "/home/Anaconda3/bin/pylint",
+  "python.condaPath": "/home/Anaconda3/bin/conda",
+  "python.sortImports.path": "/home/Anaconda3/bin/isort",
+  "python.jediPath": "/home/Anaconda3/lib/python3.7/site-packages",
+  "coc.source.emoji.filetypes": [
+    "markdown"
+  ],
+  "languageserver": {
+    "bash": {
+      "command": "bash-language-server",
+      "args": [
+        "start"
+      ],
+      "filetypes": [
+        "sh"
+      ],
+      "ignoredRootPaths": [
+        "~"
+      ]
+    }
+  }
+  // TODO b:coc_suggest_disable=1 GOYO
+  // TODO add to paths.vim g:coc_node_path
+}
