@@ -22,6 +22,7 @@ source $HOME/.config/nvim/cfg-plug/hexokinase.vim
 source $HOME/.config/nvim/cfg-plug/closetags.vim
 source $HOME/.config/nvim/cfg-plug/latex.vim
 source $HOME/.config/nvim/cfg-plug/bibtex.vim
+source $HOME/.config/nvim/cfg-plug/calc.vim
 
 source $HOME/.config/nvim/themes/airline.theme
 source $HOME/.config/nvim/themes/nvim.theme
