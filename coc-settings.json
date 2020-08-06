@@ -15,7 +15,7 @@
   // "diagnostic.virtualText": true, // this won't work with codelens when error on same line
   // "diagnostic.displayByAle": true,
   // codelens TODO what does this get me?
-  // "codeLens.enable": true,
+  "codeLens.enable": true,
   // list
   "list.indicator": ">",
   "list.selectedSignText": " ",
@@ -27,7 +27,7 @@
     "html",
     "json",
     "python",
-    "java"
+    "java",
   ],
   "coc.preferences.hoverTarget": "float",
   // python config
@@ -51,6 +51,26 @@
       ],
       "ignoredRootPaths": [
         "~"
+      ]
+    }
+  },
+  "r.lsp.path": "/usr/bin/R",
+  "tsserver.npm": "/usr/bin/npm",
+  "languageserver": {
+    "flow": {
+      "command": "flow",
+      "args": [
+        "lsp"
+      ],
+      "filetypes": [
+        "javascript",
+        "javascriptreact"
+      ],
+      "initializationOptions": {},
+      "requireRootPattern": true,
+      "settings": {},
+      "rootPatterns": [
+        ".flowconfig"
       ]
     }
   }

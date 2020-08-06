@@ -98,8 +98,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Start Screen
   Plug 'mhinz/vim-startify'
   
-  " Vista
-  Plug 'liuchengxu/vista.vim'
+  " Navigate using tags
+  Plug 'majutsushi/tagbar'
   
   " See what keys do like in emacs
   Plug 'liuchengxu/vim-which-key'

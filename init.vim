@@ -17,12 +17,13 @@ source $HOME/.config/nvim/cfg-plug/gitgutter.vim
 source $HOME/.config/nvim/cfg-plug/vim-rooter.vim
 source $HOME/.config/nvim/cfg-plug/codi.vim
 source $HOME/.config/nvim/cfg-plug/startify.vim
-source $HOME/.config/nvim/cfg-plug/vista.vim
 source $HOME/.config/nvim/cfg-plug/hexokinase.vim
 source $HOME/.config/nvim/cfg-plug/closetags.vim
 source $HOME/.config/nvim/cfg-plug/latex.vim
 source $HOME/.config/nvim/cfg-plug/bibtex.vim
 source $HOME/.config/nvim/cfg-plug/calc.vim
+source $HOME/.config/nvim/cfg-plug/tagbar.vim
+source $HOME/.config/nvim/cfg-plug/sql.vim
 
 source $HOME/.config/nvim/themes/airline.theme
 source $HOME/.config/nvim/themes/nvim.theme
