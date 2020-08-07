@@ -24,6 +24,7 @@ source $HOME/.config/nvim/cfg-plug/bibtex.vim
 source $HOME/.config/nvim/cfg-plug/calc.vim
 source $HOME/.config/nvim/cfg-plug/tagbar.vim
 source $HOME/.config/nvim/cfg-plug/sql.vim
+source $HOME/.config/nvim/cfg-plug/notes.vim
 
 source $HOME/.config/nvim/themes/airline.theme
 source $HOME/.config/nvim/themes/nvim.theme

@@ -62,6 +62,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Theme
   Plug 'rafi/awesome-vim-colorschemes'
 
+  " Multiple selection
+  Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
+  " Notes manager
+  Plug 'fmoralesc/vim-pad'  " Main plugin to work with notes
+  Plug 'xolox/vim-notes'    " syntax for the notes files
+  Plug 'xolox/vim-misc'     " a requirement for vim-notes
+
   " LaTeX integration
   Plug 'lervag/vimtex'
 
@@ -74,7 +82,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   
   " Ranger
   Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-  
+
   " FZF
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
