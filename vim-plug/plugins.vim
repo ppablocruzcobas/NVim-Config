@@ -58,7 +58,21 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   
   " Closetags
   Plug 'alvan/vim-closetag'
+
+  " TODO: Needs to be configured
+  " Vim Wiki
+  Plug 'https://github.com/vimwiki/vimwiki.git'
   
+  " Debugging...
+  Plug 'puremourning/vimspector'
+  " TODO: End
+  
+  " Find and replace
+  Plug 'ChristianChiarulli/far.vim'
+
+  " Easily Create Gists
+  Plug 'mattn/vim-gist'
+
   " Theme
   Plug 'rafi/awesome-vim-colorschemes'
 
@@ -66,12 +80,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
   " Notes manager
-  Plug 'fmoralesc/vim-pad'  " Main plugin to work with notes
+  Plug 'fmoralesc/vim-pad', {'branch': 'devel'} " Main plugin to work with notes
   Plug 'xolox/vim-notes'    " syntax for the notes files
   Plug 'xolox/vim-misc'     " a requirement for vim-notes
 
   " LaTeX integration
   Plug 'lervag/vimtex'
+
+  " A Vim Plugin for Lively Previewing LaTeX PDF Output
+  Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 
   " Intellisense
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -115,6 +132,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Making stuff
   Plug 'neomake/neomake'
   
+  " Undo time travel
+  Plug 'mbbill/undotree'
+
   " Snippets
   Plug 'honza/vim-snippets'
   Plug 'mattn/emmet-vim'

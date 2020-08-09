@@ -1,5 +1,9 @@
   let g:coc_global_extensions = [
     \ 'coc-actions',
+    \ 'coc-sql',
+    \ 'coc-emoji',
+    \ 'coc-template',
+    \ 'coc-gitignore',
     \ 'coc-clangd',
     \ 'coc-css',
     \ 'coc-cssmodules',
@@ -9,6 +13,9 @@
     \ 'coc-html',
     \ 'coc-java',
     \ 'coc-jedi',
+    \ 'coc-calc',
+    \ 'coc-marketplace',
+    \ 'coc-markdownlint',
     \ 'coc-json',
     \ 'coc-lists',
     \ 'coc-python',
@@ -17,10 +24,12 @@
     \ 'coc-snippets',
     \ 'coc-sql',
     \ 'coc-texlab',
+    \ 'coc-bibtex',
     \ 'coc-tsserver',
     \ 'coc-vimlsp',
     \ 'coc-xml',
     \ 'coc-yank',
+    \ 'coc-tabnine',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.

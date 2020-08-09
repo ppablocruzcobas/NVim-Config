@@ -27,10 +27,11 @@
     "html",
     "json",
     "python",
-    "java",
+    "java"
   ],
   "coc.preferences.hoverTarget": "float",
   // python config
+  "python.pythonPath": "/home/Anaconda3/bin/python",
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
   "python.linting.pylintPath": "/home/Anaconda3/bin/pylint",
