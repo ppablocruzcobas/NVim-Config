@@ -13,7 +13,7 @@ source $HOME/.config/nvim/cfg-plug/coc.vim
 source $HOME/.config/nvim/cfg-plug/rainbow.vim
 source $HOME/.config/nvim/cfg-plug/easymotion.vim
 source $HOME/.config/nvim/cfg-plug/rnvimr.vim
-source $HOME/.config/nvim/cfg-plug/gitgutter.vim
+
 source $HOME/.config/nvim/cfg-plug/vim-rooter.vim
 source $HOME/.config/nvim/cfg-plug/codi.vim
 source $HOME/.config/nvim/cfg-plug/startify.vim
@@ -27,6 +27,8 @@ source $HOME/.config/nvim/cfg-plug/sql.vim
 source $HOME/.config/nvim/cfg-plug/notes.vim
 source $HOME/.config/nvim/cfg-plug/wiki.vim
 source $HOME/.config/nvim/cfg-plug/far.vim
+source $HOME/.config/nvim/cfg-plug/undo.vim
+" source $HOME/.config/nvim/cfg-plug/vimspector.vim
 
 source $HOME/.config/nvim/themes/airline.theme
 source $HOME/.config/nvim/themes/nvim.theme

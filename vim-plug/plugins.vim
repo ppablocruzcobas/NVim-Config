@@ -10,7 +10,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Change dates using Ctrl+A / Ctrl+X
   " Works with any number
   Plug 'tpope/vim-speeddating'
-    
+
+  " Convert binary, hex, etc..
+  Plug 'glts/vim-radical'
+
   " Integrate Tmux notifications
   Plug 'tmux-plugins/vim-tmux-focus-events'
   " Copy text from running Tmux sessions
@@ -59,19 +62,18 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Closetags
   Plug 'alvan/vim-closetag'
 
-  " TODO: Needs to be configured
   " Vim Wiki
   Plug 'https://github.com/vimwiki/vimwiki.git'
   
   " Debugging...
   Plug 'puremourning/vimspector'
-  " TODO: End
   
   " Find and replace
   Plug 'ChristianChiarulli/far.vim'
 
   " Easily Create Gists
   Plug 'mattn/vim-gist'
+  Plug 'mattn/webapi-vim'
 
   " Theme
   Plug 'rafi/awesome-vim-colorschemes'
