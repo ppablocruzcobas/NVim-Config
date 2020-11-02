@@ -1,6 +1,6 @@
 call coc#config('list.source.bibtex', {
   \  'files': [
-  \    '~/Dokumente/Artikel/library.bib'
+  \    '~/Documents/Artikel/library.bib'
   \  ]
   \})
 

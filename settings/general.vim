@@ -64,7 +64,7 @@ endif
 command! FixWhitespace :%s/\s\+$//e
 
 " Custom Python interpreter
-let g:python3_host_prog = expand("/home/Anaconda3/bin/python")
+let g:python3_host_prog = expand("/usr/bin/python")
 
 " You can't stop me
 cmap w!! w !sudo tee %

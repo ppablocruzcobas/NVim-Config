@@ -8,7 +8,8 @@ let g:startify_lists = [
           \ ]
 
 let g:startify_bookmarks = [
-            \ {'p': '~/Dokumente/Forschungsprojekte/Python'},
+            \ {'l': '~/Documents/LaTeX'},
+            \ {'p': '~/Documents/Forschungsprojekte/Python'},
             \ ]
 
 function! StartifyEntryFormat()

@@ -55,7 +55,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   
   " Cool Icons
   Plug 'ryanoasis/vim-devicons'
-  
+
   " Auto pairs for '(' '[' '{'... 
   Plug 'jiangmiao/auto-pairs'
   
@@ -65,15 +65,18 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Vim Wiki
   Plug 'https://github.com/vimwiki/vimwiki.git'
   
-  " Debugging...
-  Plug 'puremourning/vimspector'
-  
   " Find and replace
   Plug 'ChristianChiarulli/far.vim'
 
   " Easily Create Gists
   Plug 'mattn/vim-gist'
   Plug 'mattn/webapi-vim'
+
+  " Markdown preview
+  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
+
+  " Move selected text
+  Plug 'matze/vim-move'
 
   " Theme
   Plug 'rafi/awesome-vim-colorschemes'

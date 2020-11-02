@@ -31,13 +31,12 @@
   ],
   "coc.preferences.hoverTarget": "float",
   // python config
-  "python.pythonPath": "/home/Anaconda3/bin/python",
+  "python.pythonPath": "/usr/bin/python",
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
-  "python.linting.pylintPath": "/home/Anaconda3/bin/pylint",
-  "python.condaPath": "/home/Anaconda3/bin/conda",
-  "python.sortImports.path": "/home/Anaconda3/bin/isort",
-  "python.jediPath": "/home/Anaconda3/lib/python3.7/site-packages",
+  "python.linting.pylintPath": "/usr/bin/pylint",
+  "python.sortImports.path": "/usr/bin/isort",
+  "python.jediPath": "/lib/python3.8/site-packages",
   "coc.source.emoji.filetypes": [
     "markdown"
   ],
@@ -59,9 +58,9 @@
   "tsserver.npm": "/usr/bin/npm",
   "languageserver": {
     "flow": {
-      "command": "flow",
+      "command": "flow-language-server",
       "args": [
-        "lsp"
+        "--stdio"
       ],
       "filetypes": [
         "javascript",

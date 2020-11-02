@@ -143,7 +143,7 @@ let g:which_key_map.G = {
       \ 'P' : [':Gist -p'                          , 'post private gist '],
       \ }
 
-" l is for language server protocol
+" c is for language server protocol
 let g:which_key_map.l = {
       \ 'name' : '+lsp' ,
       \ '.' : [':CocConfig'                          , 'config'],
@@ -206,6 +206,7 @@ let g:which_key_map.x = {
       \ 'L' : ['<plug>(vimtex-compile-selected)'                , 'compile sel'],
       \ 'v' : ['<plug>(vimtex-view)'                            , 'view'],
       \ 'c' : ['<plug>(vimtex-clean)'                           , 'clean'],
+      \ 'g' : [':VimtexView'                                    , 'goto'],
       \ }
 
 " w is for wiki
