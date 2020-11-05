@@ -14,6 +14,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Convert binary, hex, etc..
   Plug 'glts/vim-radical'
 
+  " Cheat Sheet...
+  Plug 'dbeniamine/cheat.sh-vim'
+
   " Integrate Tmux notifications
   Plug 'tmux-plugins/vim-tmux-focus-events'
   " Copy text from running Tmux sessions
