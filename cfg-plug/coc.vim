@@ -30,6 +30,11 @@
     \ 'coc-xml',
     \ 'coc-yank',
     \ 'coc-tabnine',
+    \ 'coc-phpls',
+    \ 'coc-phpactor',
+    \ 'coc-lua',
+    \ 'coc-solargraph',
+    \ 'coc-perl',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
