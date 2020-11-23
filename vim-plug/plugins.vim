@@ -18,12 +18,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'dbeniamine/cheat.sh-vim'
 
   " Integrate Tmux notifications
-  Plug 'tmux-plugins/vim-tmux-focus-events'
+  " Plug 'tmux-plugins/vim-tmux-focus-events'
   " Copy text from running Tmux sessions
-  Plug 'wellle/tmux-complete.vim'
+  " Plug 'wellle/tmux-complete.vim'
 
   " Seamlessly navigate between Tmux and Vim
-  Plug 'christoomey/vim-tmux-navigator'
+  " Plug 'christoomey/vim-tmux-navigator'
 
   " Files (move, rename,...)
   Plug 'tpope/vim-eunuch'
@@ -37,6 +37,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Better Comments (gc / gcc / gcap...)
   Plug 'tpope/vim-commentary'
 
+  " DB conectors...
+  Plug 'tpope/vim-dadbod'
+
   " Have the file system follow you around
   " Make cd to project dir
   Plug 'airblade/vim-rooter'
@@ -45,7 +48,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-sleuth'
 
   " Virtual text (produces evaluations in real time)
-  Plug 'ChristianChiarulli/codi.vim'
+  " Plug 'ChristianChiarulli/codi.vim'
 
   " Text Navigation
   Plug 'easymotion/vim-easymotion'
@@ -81,9 +84,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Move selected text
   Plug 'matze/vim-move'
 
-  " Theme
-  Plug 'rafi/awesome-vim-colorschemes'
-
   " Multiple selection
   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
@@ -100,6 +100,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " Intellisense
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+ 
+  " Themes
+  Plug 'rafi/awesome-vim-colorschemes'
   
   " Status Line
   Plug 'vim-airline/vim-airline'

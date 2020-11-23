@@ -35,6 +35,8 @@
     \ 'coc-lua',
     \ 'coc-solargraph',
     \ 'coc-perl',
+    \ 'coc-f5',
+    \ 'coc-db',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
