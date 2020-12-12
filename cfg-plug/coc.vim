@@ -1,5 +1,9 @@
   let g:coc_global_extensions = [
     \ 'coc-actions',
+    \ 'coc-angular',
+    \ 'coc-docthis',
+    \ 'coc-format-json',
+    \ 'coc-omnisharp',
     \ 'coc-sql',
     \ 'coc-emoji',
     \ 'coc-template',

@@ -29,6 +29,7 @@
     "python",
     "java"
   ],
+  "java.home": "/usr/lib/jvm/java-11-openjdk",
   "coc.preferences.hoverTarget": "float",
   // python config
   "python.pythonPath": "/usr/bin/python",

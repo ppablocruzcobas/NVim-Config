@@ -13,6 +13,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " Convert binary, hex, etc..
   Plug 'glts/vim-radical'
+  " A requirement
+  Plug 'glts/vim-magnum'
 
   " Cheat Sheet...
   Plug 'dbeniamine/cheat.sh-vim'
