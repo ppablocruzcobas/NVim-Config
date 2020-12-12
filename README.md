@@ -1,7 +1,7 @@
 # Vim Configuration
 
 # pacman
-pacman -S clang ctags bash-language-server autopep8 the_silver_searcher ripgrep fzf ncdu
+pacman -S clang ctags bash-language-server autopep8 the_silver_searcher ripgrep fzf ncdu rubygems luarocks
 
 # pip3
 pip3 install pynvim neovim-remote
