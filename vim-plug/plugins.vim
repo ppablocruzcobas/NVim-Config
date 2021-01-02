@@ -117,6 +117,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
 
+  " Debugger
+  Plug 'puremourning/vimspector'
+
   " Git
   " Lateral indicators
   Plug 'airblade/vim-gitgutter'

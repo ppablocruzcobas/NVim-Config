@@ -2,6 +2,7 @@
     \ 'coc-actions',
     \ 'coc-angular',
     \ 'coc-docthis',
+    \ 'coc-git',
     \ 'coc-format-json',
     \ 'coc-omnisharp',
     \ 'coc-sql',

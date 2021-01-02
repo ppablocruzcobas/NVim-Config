@@ -70,7 +70,8 @@
       "rootPatterns": [
         ".flowconfig"
       ]
-    }},
+    }
+  },
   "r.lsp.path": "/usr/bin/R",
   "tsserver.npm": "/usr/bin/npm",
   "html.autoClosingTags": true,

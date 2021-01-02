@@ -30,6 +30,7 @@ source $HOME/.config/nvim/cfg-plug/far.vim
 source $HOME/.config/nvim/cfg-plug/undo.vim
 source $HOME/.config/nvim/cfg-plug/cheat.vim
 source $HOME/.config/nvim/cfg-plug/rest-client.vim
+source $HOME/.config/nvim/cfg-plug/vimspector.vim
 
 source $HOME/.config/nvim/themes/airline.theme
 source $HOME/.config/nvim/themes/nvim.theme
