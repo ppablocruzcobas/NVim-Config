@@ -27,7 +27,8 @@
     "html",
     "json",
     "python",
-    "java"
+    "java",
+    "typescript"
   ],
   "java.home": "/usr/lib/jvm/java-11-openjdk",
   "coc.preferences.hoverTarget": "float",
@@ -53,11 +54,7 @@
       "ignoredRootPaths": [
         "~"
       ]
-    }
-  },
-  "r.lsp.path": "/usr/bin/R",
-  "tsserver.npm": "/usr/bin/npm",
-  "languageserver": {
+    },
     "flow": {
       "command": "flow-language-server",
       "args": [
@@ -73,6 +70,12 @@
       "rootPatterns": [
         ".flowconfig"
       ]
-    }
-  }
+    }},
+  "r.lsp.path": "/usr/bin/R",
+  "tsserver.npm": "/usr/bin/npm",
+  "html.autoClosingTags": true,
+  "rest-client.defaultHeaders": {
+    "Content-Type": "application/json"
+  },
+  "rest-client.showHeaders": false
 }

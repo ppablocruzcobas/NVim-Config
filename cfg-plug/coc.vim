@@ -11,6 +11,7 @@
     \ 'coc-clangd',
     \ 'coc-css',
     \ 'coc-cssmodules',
+    \ 'coc-bootstrap-classname',
     \ 'coc-emoji',
     \ 'coc-explorer',
     \ 'coc-floaterm',
@@ -39,8 +40,11 @@
     \ 'coc-lua',
     \ 'coc-solargraph',
     \ 'coc-perl',
-    \ 'coc-f5',
-    \ 'coc-db',
+    \ 'coc-restclient',
+    \ 'coc-react-refactor',
+    \ 'coc-project-manager',
+    \ 'coc-project',
+    \ 'coc-flow',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
