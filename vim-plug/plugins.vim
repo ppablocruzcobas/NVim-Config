@@ -17,15 +17,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'glts/vim-magnum'
 
   " Cheat Sheet...
-  Plug 'dbeniamine/cheat.sh-vim'
+  " Plug 'dbeniamine/cheat.sh-vim'
 
   " Integrate Tmux notifications
   " Plug 'tmux-plugins/vim-tmux-focus-events'
   " Copy text from running Tmux sessions
   " Plug 'wellle/tmux-complete.vim'
-
-  " Seamlessly navigate between Tmux and Vim
-  " Plug 'christoomey/vim-tmux-navigator'
 
   " Files (move, rename,...)
   Plug 'tpope/vim-eunuch'
@@ -49,8 +46,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Auto set indent settings
   Plug 'tpope/vim-sleuth'
 
-  " Virtual text (produces evaluations in real time)
-  " Plug 'ChristianChiarulli/codi.vim'
+  " Run selected code (Pyhton, Java C/C++)
+  Plug 'michaelb/sniprun', {'do': 'bash install.sh'}
 
   " Text Navigation
   Plug 'easymotion/vim-easymotion'
@@ -116,9 +113,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " FZF
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
-
-  " Debugger
-  Plug 'puremourning/vimspector'
 
   " Git
   " Lateral indicators

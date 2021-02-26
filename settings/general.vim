@@ -35,7 +35,7 @@ set updatetime=300                      " Faster completion
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
-set termguicolors                       " Support True colors
+" set termguicolors                       " Support True colors
 set autoread                            " Autoload file changes
 set incsearch                           " Start searching with pressing enter
 au! BufWritePost $MYVIMRC source %      " Auto source when writing to init.vm
