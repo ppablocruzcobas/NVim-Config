@@ -1,38 +1,29 @@
 {
-  // suggestions
-  // "suggest.echodocSupport": true,
-  // TODO add more labels and give them cool glyphs
+  "suggest.echodocSupport": true,
   "suggest.completionItemKindLabels": {
     "text": "t",
     "method": "m",
     "function": ""
   },
-  // diagnostics
   "diagnostic.errorSign": " ",
   "diagnostic.warningSign": " ",
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": " ",
-  // "diagnostic.virtualText": true, // this won't work with codelens when error on same line
-  // "diagnostic.displayByAle": true,
-  // codelens TODO what does this get me?
+  "diagnostic.virtualText": false,
   "codeLens.enable": true,
-  // list
   "list.indicator": ">",
   "list.selectedSignText": " ",
-  // autoformat
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "markdown",
     "javascript",
     "html",
-    "json",
     "python",
     "java",
+    "json",
     "typescript"
   ],
   "java.home": "/usr/lib/jvm/java-11-openjdk",
-  "coc.preferences.hoverTarget": "float",
-  // python config
   "python.pythonPath": "/usr/bin/python",
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
@@ -55,22 +46,6 @@
         "~"
       ]
     }
-    /* "flow": { */
-      /* "command": "flow-language-server", */
-      /* "args": [ */
-      /*   "--stdio" */
-      /* ], */
-      /* "filetypes": [ */
-      /*   "javascript", */
-      /*   "javascriptreact" */
-      /* ], */
-      /* "initializationOptions": {}, */
-      /* "requireRootPattern": true, */
-      /* "settings": {}, */
-      /* "rootPatterns": [ */
-      /*   ".flowconfig" */
-      /* ] */
-    /* } */
   },
   "r.lsp.path": "/usr/bin/R",
   "tsserver.npm": "/usr/bin/npm",
@@ -78,5 +53,7 @@
   "rest-client.defaultHeaders": {
     "Content-Type": "application/json"
   },
-  "rest-client.showHeaders": false
+  "rest-client.showHeaders": false,
+  "json.enable": true,
+  "json.format.enable": true
 }

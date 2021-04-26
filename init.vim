@@ -22,15 +22,14 @@ source $HOME/.config/nvim/cfg-plug/closetags.vim
 source $HOME/.config/nvim/cfg-plug/latex.vim
 source $HOME/.config/nvim/cfg-plug/bibtex.vim
 source $HOME/.config/nvim/cfg-plug/calc.vim
-source $HOME/.config/nvim/cfg-plug/tagbar.vim
 source $HOME/.config/nvim/cfg-plug/sql.vim
-source $HOME/.config/nvim/cfg-plug/notes.vim
 source $HOME/.config/nvim/cfg-plug/wiki.vim
 source $HOME/.config/nvim/cfg-plug/far.vim
 source $HOME/.config/nvim/cfg-plug/undo.vim
-source $HOME/.config/nvim/cfg-plug/cheat.vim
 source $HOME/.config/nvim/cfg-plug/rest-client.vim
-source $HOME/.config/nvim/cfg-plug/vimspector.vim
+source $HOME/.config/nvim/cfg-plug/doge.vim
+source $HOME/.config/nvim/cfg-plug/db.vim
+source $HOME/.config/nvim/cfg-plug/tagbar.vim
 
 source $HOME/.config/nvim/themes/airline.theme
 source $HOME/.config/nvim/themes/nvim.theme

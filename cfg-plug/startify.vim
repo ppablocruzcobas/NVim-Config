@@ -9,9 +9,9 @@ let g:startify_lists = [
 
 let g:startify_bookmarks = [
             \ {'L': '~/Dokumente/LaTeX'},
-            \ {'F': '~/Dokumente/Forschungsprojekte'},
-            \ {'I': '~/Dokumente/Forschungsprojekte/ISU'},
-            \ {'P': '~/Dokumente/Forschungsprojekte/Python'},
+            \ {'F': '~/run/media/ppablocruzcobas/Daten/Forschungsprojekte'},
+            \ {'I': '~/run/media/ppablocruzcobas/Daten/Dokumente/Forschungsprojekte/ISU'},
+            \ {'P': '~/run/media/ppablocruzcobas/Daten/Forschungsprojekte/Python'},
             \ ]
 
 function! StartifyEntryFormat()

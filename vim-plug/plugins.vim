@@ -11,19 +11,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Works with any number
   Plug 'tpope/vim-speeddating'
 
-  " Convert binary, hex, etc..
-  Plug 'glts/vim-radical'
-  " A requirement
-  Plug 'glts/vim-magnum'
-
-  " Cheat Sheet...
-  " Plug 'dbeniamine/cheat.sh-vim'
-
-  " Integrate Tmux notifications
-  " Plug 'tmux-plugins/vim-tmux-focus-events'
-  " Copy text from running Tmux sessions
-  " Plug 'wellle/tmux-complete.vim'
-
   " Files (move, rename,...)
   Plug 'tpope/vim-eunuch'
 
@@ -33,11 +20,21 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Surround (changes surrounds around text using cs / delete with ds)
   Plug 'tpope/vim-surround'
 
+  " Debug...  
+  " Plug 'joonty/vdebug'
+
+  " Tag bar...
+  Plug 'majutsushi/tagbar'
+
   " Better Comments (gc / gcc / gcap...)
   Plug 'tpope/vim-commentary'
 
+  " Allow fold / unfold for any kind of file type.
+  " Plug 'pseewald/vim-anyfold'
+
   " DB conectors...
   Plug 'tpope/vim-dadbod'
+  Plug 'kristijanhusak/vim-dadbod-ui'
 
   " Have the file system follow you around
   " Make cd to project dir
@@ -73,10 +70,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Find and replace
   Plug 'ChristianChiarulli/far.vim'
 
-  " Easily Create Gists
-  Plug 'mattn/vim-gist'
-  Plug 'mattn/webapi-vim'
-
   " Markdown preview
   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 
@@ -86,16 +79,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Multiple selection
   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
-  " Notes manager
-  Plug 'fmoralesc/vim-pad', {'branch': 'devel'} " Main plugin to work with notes
-  Plug 'xolox/vim-notes'    " syntax for the notes files
-  Plug 'xolox/vim-misc'     " a requirement for vim-notes
-
   " LaTeX integration
   Plug 'lervag/vimtex'
 
   " A Vim Plugin for Lively Previewing LaTeX PDF Output
   Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+
+  " Cheat Sh Stackoverflow
+  Plug 'dbeniamine/cheat.sh-vim'
+
+  " (Do)cumentation (Ge)nerator
+  Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
 
   " Intellisense
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -119,10 +113,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'airblade/vim-gitgutter'
   " Git commands / Status line
   Plug 'tpope/vim-fugitive'
-  " Hub
-  Plug 'tpope/vim-rhubarb'
-  " GBrowse
-  Plug 'junegunn/gv.vim'
   
   " Add some colors
   Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
@@ -132,9 +122,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   
   " Start Screen
   Plug 'mhinz/vim-startify'
-  
-  " Navigate using tags
-  Plug 'majutsushi/tagbar'
   
   " See what keys do like in emacs
   Plug 'liuchengxu/vim-which-key'
