@@ -14,7 +14,7 @@ set iskeyword+=-                      	" treat dash separated words as a word te
 set mouse=a                             " Enable your mouse
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
-set t_Co=256                            " Support 256 colors
+" set t_Co=256                            " Support 256 colors
 set conceallevel=0                      " So that I can see `` in markdown files
 set tabstop=4                           " Insert 4 spaces for a tab
 set softtabstop=4                       " Insert 4 spaces for a tab
@@ -35,7 +35,7 @@ set updatetime=300                      " Faster completion
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
-" set termguicolors                       " Support True colors
+set termguicolors                       " Support True colors
 set autoread                            " Autoload file changes
 set incsearch                           " Start searching with pressing enter
 au! BufWritePost $MYVIMRC source %      " Auto source when writing to init.vm

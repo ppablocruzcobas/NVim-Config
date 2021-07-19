@@ -1,4 +1,3 @@
-
 source $HOME/.config/nvim/settings/general.vim
 
 source $HOME/.config/nvim/vim-plug/plugins.vim
@@ -17,7 +16,6 @@ source $HOME/.config/nvim/cfg-plug/rnvimr.vim
 source $HOME/.config/nvim/cfg-plug/vim-rooter.vim
 source $HOME/.config/nvim/cfg-plug/codi.vim
 source $HOME/.config/nvim/cfg-plug/startify.vim
-source $HOME/.config/nvim/cfg-plug/hexokinase.vim
 source $HOME/.config/nvim/cfg-plug/closetags.vim
 source $HOME/.config/nvim/cfg-plug/latex.vim
 source $HOME/.config/nvim/cfg-plug/bibtex.vim
@@ -30,6 +28,7 @@ source $HOME/.config/nvim/cfg-plug/rest-client.vim
 source $HOME/.config/nvim/cfg-plug/doge.vim
 source $HOME/.config/nvim/cfg-plug/db.vim
 source $HOME/.config/nvim/cfg-plug/tagbar.vim
+source $HOME/.config/nvim/cfg-plug/hexokinase.vim
 
 source $HOME/.config/nvim/themes/airline.theme
 source $HOME/.config/nvim/themes/nvim.theme

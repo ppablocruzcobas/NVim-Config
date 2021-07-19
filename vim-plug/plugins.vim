@@ -20,17 +20,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Surround (changes surrounds around text using cs / delete with ds)
   Plug 'tpope/vim-surround'
 
-  " Debug...  
-  " Plug 'joonty/vdebug'
-
   " Tag bar...
   Plug 'majutsushi/tagbar'
 
   " Better Comments (gc / gcc / gcap...)
   Plug 'tpope/vim-commentary'
-
-  " Allow fold / unfold for any kind of file type.
-  " Plug 'pseewald/vim-anyfold'
 
   " DB conectors...
   Plug 'tpope/vim-dadbod'
@@ -44,7 +38,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-sleuth'
 
   " Run selected code (Pyhton, Java C/C++)
-  Plug 'michaelb/sniprun', {'do': 'bash install.sh'}
+  " Plug 'michaelb/sniprun', {'do': 'bash install.sh'}
 
   " Text Navigation
   Plug 'easymotion/vim-easymotion'
@@ -96,7 +90,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
  
   " Themes
   Plug 'rafi/awesome-vim-colorschemes'
-  
+
+  " Debugger
+  Plug 'joonty/vdebug'
+
   " Status Line
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
